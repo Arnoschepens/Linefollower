@@ -5,7 +5,7 @@
 |----------|----|------------|-----------|---------|------|---------|
 |         1|ESP32|     microcontroller       |           |              |      |         |
 |         2|Prototype Board|   Dual Sided 90x70mm Board       |           |              |      |         |
-|3|AA batterij|AA batterij|-----------|-|---6|---------|
+|3|AA batterij|AA batterij|https://www.123accu.nl/123accu-Xtreme-Power-Oplaadbare-AA-HR6-Ni-Mh-batterijen-4-stuks-2000-mAh-i49256.html|-|---6|---------|
 |--------4--|--Hbrug--|------------|-----------|---------|--1----|---------|
 |-------5---|--sensor--|-------IR-sensor-----|-----------|---------|-1-----|---------|
 |-------6---|--batterij houder--|------------|-----------|---------|---1---|---------|
