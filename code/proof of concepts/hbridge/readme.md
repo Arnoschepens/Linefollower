@@ -4,17 +4,21 @@ minimale hard- & software + stappenplan dat aantoont dat 2 motoren onafhankelijk
 
 ### Hardware
 * ESP32
-* DRV8833 motordriver (H-brug)
+* TB6612FNG motordriver (H-brug)
 * 2 x N20 motor 6V
 * batterij 7,4V op de H-brug (motoren max 6V: in de software is 100% = 81% duty = 6V)
 
 ### Aansluitingen
-| ESP32 | DRV8833 | motor |
-|-------|---------|-------|
-| GPIO 17 | AIN1 | rechts |
-| GPIO 18 | AIN2 | rechts |
-| GPIO 22 | BIN1 | links |
-| GPIO 21 | BIN2 | links |
+| ESP32 / voeding | TB6612FNG | motor |
+|-----------------|-----------|-------|
+| GPIO 17 | AIN1 | rechts (AOUT1/AOUT2) |
+| GPIO 18 | AIN2 | rechts (AOUT1/AOUT2) |
+| GPIO 22 | BIN1 | links (BOUT1/BOUT2) |
+| GPIO 21 | BIN2 | links (BOUT1/BOUT2) |
+| 3,3 V van de ESP32 | STBY | - |
+| GND van de ESP32 | GND (logica) | - |
+| batterij 7,4 V | VM | - |
+| 0 V batterij | GND (motor) | - |
 
 Elke motor krijgt 2 PWM-signalen (20 kHz): PWM op IN1 = vooruit, PWM op IN2 = achteruit.
 
