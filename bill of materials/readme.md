@@ -14,7 +14,4 @@
 | 9 | drukknop | start/stop-knop | recup | - | 1 | - |
 | 10 | LED | indicatie-LED | recup | - | 1 | - |
 | 11 | elektrische draad | draad 1,5 | recup | - | - | - |
-| 12 | soldeerbout | gereedschap | recup | - | - | - |
-| 13 | soldeersel | verbruiksmateriaal | recup | - | - | - |
-| 14 | krimpkousen | verbruiksmateriaal | recup | - | - | - |
 | | **totaal** | | | | | **82,82** |
