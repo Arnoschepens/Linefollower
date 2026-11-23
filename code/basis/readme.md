@@ -40,3 +40,7 @@ De drukknop doet hetzelfde als start/stop. Na een herstart blijft de ingestelde 
 6. Druk op de knop: de LED stopt; nog eens drukken: de LED knippert weer.
 7. Herstart de ESP32 en typ **debug**: de cyclustijd is nog steeds 100000 us (EEPROM).
 8. Verbind met de telefoon (BLESerial nRF, linefollowerArno) en stuur dezelfde commando's.
+
+### tussentijdse_finale_code.ino
+* Compileert met de ESP32 Arduino-core **3.x**. Op core 2.x geeft BLE getValue() een std::string terug in plaats van een String, waardoor de regel String rxValue = pCharacteristic->getValue(); een type-fout geeft.
+* Nodige bibliotheek in dezelfde map: EEPROMAnything.h (staat in code/basis). SerialCommand wordt in dit bestand niet gebruikt.
