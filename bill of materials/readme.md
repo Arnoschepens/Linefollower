@@ -14,4 +14,7 @@
 | 9 | drukknop | start/stop-knop | recup | - | 1 | - |
 | 10 | LED | indicatie-LED | recup | - | 1 | - |
 | 11 | elektrische draad | draad 1,5 | recup | - | - | - |
+| 12 | converter | 7,4 V naar 5 V, voeding van de ESP32 via VIN | - | - | 1 | - |
+| 13 | schakelaar | aan/uit-schakelaar (toevoer naar de ESP32) | - | - | 1 | - |
+| 14 | weerstand | 220 Ω, voorschakelweerstand van de LED | - | - | 1 | - |
 | | **totaal** | | | | | **82,82** |
