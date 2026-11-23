@@ -6,7 +6,7 @@
 | 1 | ESP32 | microcontroller | nieuw | 11,76 | 1 | 11,76 |
 | 2 | prototype board | dual sided 90x70 mm board | nieuw | 10,22 | 1 | 10,22 |
 | 3 | batterij | lithium-ion batterij | nieuw | 19,31 | 1 | 19,31 |
-| 4 | H-brug | TB6612FNG dual motor driver 1A | nieuw | 1,83 | 1 | 1,83 |
+| 4 | H-brug | DRV8833 dual motor driver | nieuw | 5,43 | 1 | 5,43 |
 | 5 | sensor | 8-kanaals IR tracking sensor module | recup | 7,96 | 1 | 7,96 |
 | 6 | motor | N20 metal gear motor 6V 1000RPM | nieuw | 7,51 | 2 | 15,01 |
 | 7 | wielen | N20 rubber wiel 34 mm | nieuw | 3,67 | 2 | 7,33 |
@@ -17,4 +17,4 @@
 | 12 | soldeerbout | gereedschap | recup | - | - | - |
 | 13 | soldeersel | verbruiksmateriaal | recup | - | - | - |
 | 14 | krimpkousen | verbruiksmateriaal | recup | - | - | - |
-| | **totaal** | | | | | **79,22** |
+| | **totaal** | | | | | **82,82** |
