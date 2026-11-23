@@ -4,17 +4,22 @@ minimale hard- en software die aantoont dat minimaal 6 sensoren onafhankelijk va
 
 ### Hardware
 * ESP32
-* 8-kanaals IR tracking sensor module (6 kanalen gebruikt)
+* 8-kanaals IR tracking sensor module (kanalen D2 tot D7 gebruikt, D1 en D8 niet aangesloten)
 
 ### Aansluitingen (links -> rechts)
-| sensor | ESP32 |
-|--------|-------|
-| S1 | GPIO 36 |
-| S2 | GPIO 39 |
-| S3 | GPIO 34 |
-| S4 | GPIO 35 |
-| S5 | GPIO 32 |
-| S6 | GPIO 33 |
+| pin module | sensor in de code | ESP32 |
+|------------|-------------------|-------|
+| VCC | - | 3,3 V |
+| IR | - | 3,3 V (samen met VCC: IR-leds altijd aan) |
+| D1 | - | niet aangesloten |
+| D2 | S1 | GPIO 36 |
+| D3 | S2 | GPIO 39 |
+| D4 | S3 | GPIO 34 |
+| D5 | S4 | GPIO 35 |
+| D6 | S5 | GPIO 32 |
+| D7 | S6 | GPIO 33 |
+| D8 | - | niet aangesloten |
+| GND | - | GND |
 
 Alle 6 pinnen zitten op ADC1, zodat ze ook werken terwijl Bluetooth/WiFi actief is.
 
