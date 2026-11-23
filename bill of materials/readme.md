@@ -8,9 +8,12 @@
 |3|batterij|Lithium ion batterij|nieuw|19,31|1|1|
 |--------4--|--Hbrug--|TB6612 Dual Motor Driver 1A TB6612FNG|nieuw|1,83|1|---------|
 |-------5---|--sensor--|8 Kanaals IR Tracking Sensor Module 8 CH Infrarood |recup|7,96|1|---------|
+|6|motor|N20 metal gear motor 6V 1000RPM|nieuw|7,51|2|15,01|
 |-------7---|-soldeerbout---|------------|------recup-----|---------|------|---------|
 |--------8--|--soldeersel--|------------|-----recup------|---------|------|---------|
 |--------9--|--krimpkousen--|------------|------recup-----|---------|------|---------|
 |-------10---|---elektrische draad-|----1.5 draad--------|------recup-----|---------|------|---------|
 |------11----|--knop--|------start/On------|-----recup------|---------|------|---------|
 |--------12--|--led--|---indicatie LED---------|----recup-------|---------|------|---------|
+|13|wielen|N20 rubber wiel 34mm|nieuw|3,67|2|7,33|
+|14|motorhouders|N20 motor mount (set van 5)|nieuw|5,80|1|5,80|
