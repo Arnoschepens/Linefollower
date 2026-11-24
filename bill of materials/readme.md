@@ -6,7 +6,7 @@
 | 1 | ESP32 | microcontroller | nieuw | 11,76 | 1 | 11,76 |
 | 2 | prototype board | dual sided 90x70 mm board | nieuw | 10,22 | 1 | 10,22 |
 | 3 | batterij | lithium-ion batterij | nieuw | 19,31 | 1 | 19,31 |
-| 4 | H-brug | TB6612FNG dual motor driver 1A | nieuw | 5,43 | 1 | 5,43 |
+| 4 | H-brug | DRV8833 dual motor driver | nieuw | 5,43 | 1 | 5,43 |
 | 5 | sensor | 8-kanaals IR tracking sensor module | recup | 7,96 | 1 | 7,96 |
 | 6 | motor | N20 metal gear motor 6V 1000RPM | nieuw | 7,51 | 2 | 15,01 |
 | 7 | wielen | N20 rubber wiel 34 mm | nieuw | 3,67 | 2 | 7,33 |
@@ -20,9 +20,9 @@
 | | **totaal** | | | | | **82,82** |
 
 ### Voeding (volgens het elektrisch schema)
-* batterij 7,4 V -> VM van de TB6612FNG (motoren) en ingang van de converter
+* batterij 7,4 V -> VM van de DRV8833 (motoren) en ingang van de converter
 * converter 7,4 V -> 5 V -> aan/uit-schakelaar -> VIN van de ESP32
-* 3,3 V van de ESP32 -> sensormodule (VCC en IR) en STBY van de TB6612FNG
+* 3,3 V van de ESP32 -> sensormodule (VCC en IR)
 * motoren max 6 V: in de code is 100% sturing = 81% duty (6 V bij 7,4 V)
 
 ### Nog aan te vullen
