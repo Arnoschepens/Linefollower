@@ -18,3 +18,14 @@
 | 13 | schakelaar | aan/uit-schakelaar (toevoer naar de ESP32) | - | - | 1 | - |
 | 14 | weerstand | 220 Ω, voorschakelweerstand van de LED | - | - | 1 | - |
 | | **totaal** | | | | | **82,82** |
+
+### Voeding (volgens het elektrisch schema)
+* batterij 7,4 V -> VM van de TB6612FNG (motoren) en ingang van de converter
+* converter 7,4 V -> 5 V -> aan/uit-schakelaar -> VIN van de ESP32
+* 3,3 V van de ESP32 -> sensormodule (VCC en IR) en STBY van de TB6612FNG
+* motoren max 6 V: in de code is 100% sturing = 81% duty (6 V bij 7,4 V)
+
+### Nog aan te vullen
+* exact type van het ESP32-bord en van de batterij (spanning, capaciteit)
+* lader voor de Li-ion-batterij
+* prijzen van de converter, de schakelaar en de weerstand
