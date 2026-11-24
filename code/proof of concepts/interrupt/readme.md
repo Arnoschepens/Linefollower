@@ -3,8 +3,8 @@ minimale hard- en software die de correcte werking van een start/stop drukknop a
 
 ### Hardware
 * ESP32
-* drukknop tussen GPIO 23 en GND (interne pull-up: los = HIGH, ingedrukt = LOW)
-* LED met voorschakelweerstand op GPIO 27 naar GND
+* drukknop (S2 START in het elektrisch schema) tussen GPIO 23 en GND (interne pull-up: los = HIGH, ingedrukt = LOW)
+* LED (P1 in het elektrisch schema) met voorschakelweerstand van 220 Ω (R1) op GPIO 27 naar GND
 
 ### Schema
 nog toe te voegen
