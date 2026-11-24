@@ -6,8 +6,8 @@ stap4/stap4.ino: volledige PID-lijnvolger met draadloze bediening via BLE (met S
 | onderdeel | ESP32 |
 |-----------|-------|
 | sensoren S1 tot S6 (links -> rechts) | GPIO 36, 39, 34, 35, 32, 33 |
-| TB6612FNG AIN1 / AIN2 (rechtermotor) | GPIO 17 / 18 |
-| TB6612FNG BIN1 / BIN2 (linkermotor) | GPIO 22 / 21 |
+| DRV8833 AIN1 / AIN2 (rechtermotor) | GPIO 17 / 18 |
+| DRV8833 BIN1 / BIN2 (linkermotor) | GPIO 22 / 21 |
 | start/stop-knop naar GND (interrupt, FALLING) | GPIO 23 |
 | LED (knippert = stil, brandt = rijden) | GPIO 27 |
 
