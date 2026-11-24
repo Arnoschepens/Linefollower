@@ -14,11 +14,11 @@ Datasheet van de chip: [esp32_datasheet_en.pdf](esp32_datasheet_en.pdf) (Espress
 |-----|----------|---------|
 | VIN | ingang | 5 V van de converter |
 | GND | - | massa |
-| 3,3V | uitgang | voeding sensormodule (VCC en IR) en STBY van de TB6612FNG |
-| GPIO 17 | uitgang (PWM) | TB6612FNG AIN1 |
-| GPIO 18 | uitgang (PWM) | TB6612FNG AIN2 |
-| GPIO 22 | uitgang (PWM) | TB6612FNG BIN1 |
-| GPIO 21 | uitgang (PWM) | TB6612FNG BIN2 |
+| 3,3V | uitgang | voeding sensormodule (VCC en IR) |
+| GPIO 17 | uitgang (PWM) | DRV8833 AIN1 |
+| GPIO 18 | uitgang (PWM) | DRV8833 AIN2 |
+| GPIO 22 | uitgang (PWM) | DRV8833 BIN1 |
+| GPIO 21 | uitgang (PWM) | DRV8833 BIN2 |
 | GPIO 23 | ingang (pull-up, interrupt) | start/stop-knop naar GND |
 | GPIO 27 | uitgang | LED via 220 Ω naar GND |
 | GPIO 36 | ingang (ADC1) | sensormodule D2 |
