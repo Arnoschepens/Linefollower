@@ -5,7 +5,7 @@ Geen officiële datasheet gevonden. Gegevens uit de bestelling en uit het elektr
 | eigenschap | waarde |
 |------------|--------|
 | type | 8-kanaals IR tracking sensor module (analoge uitgangen D1 tot D8) |
-| reflectiesensoren | TCRT5000 (zie [tcrt5000.pdf](tcrt5000.pdf)) |
+| reflectiesensoren | type nog na te kijken op de module (vaak TCRT5000, zie [tcrt5000.pdf](tcrt5000.pdf)) |
 | voeding in dit project | 3,3 V van de ESP32 |
 | bron | AliExpress, YX Electronic Components: "8 Kanaals IR Tracking Sensor Module 8 CH Infrarood Lijn Track Trace Detecteren Detectie Board" |
 
