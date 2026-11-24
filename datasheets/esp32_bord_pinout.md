@@ -28,4 +28,4 @@ Datasheet van de chip: [esp32_datasheet_en.pdf](esp32_datasheet_en.pdf) (Espress
 | GPIO 32 | ingang (ADC1) | sensormodule D6 |
 | GPIO 33 | ingang (ADC1) | sensormodule D7 |
 
-De sensoren zitten allemaal op ADC1, omdat ADC2 niet bruikbaar is terwijl de radio (BLE) actief is.
+De sensoren zitten allemaal op ADC1. GPIO 34, 35, 36 en 39 zijn enkel ingangen.
